@@ -28,8 +28,9 @@ export default function Home() {
       <CodeDemo />
 
       <p className="max-w-md text-balance text-sm leading-6 text-gutter sm:text-base">
-        Inline pixel equivalents for every relative CSS unit — rem, em, %, vh,
-        vw, and more. Works in every JetBrains IDE with CSS support.
+        Pixel equivalents for rem, em, vh, vw, and more — shown inline or
+        aggregated at end of line. Choose your style in settings.
+        Works in every JetBrains IDE with CSS support.
       </p>
 
       <div className="flex flex-col items-center gap-4 sm:flex-row sm:gap-6">
