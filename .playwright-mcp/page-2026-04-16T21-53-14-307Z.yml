@@ -1,0 +1,79 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - img "PxPeek logo" [ref=e4]
+      - heading "PxPeek" [level=1] [ref=e5]
+    - paragraph [ref=e6]: See the pixels behind your units.
+    - generic [ref=e7]:
+      - radiogroup "Hint placement" [ref=e8]:
+        - radio "Inline" [ref=e9]
+        - radio "End of line" [checked] [active] [ref=e11]: End of line
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - img [ref=e14]
+          - generic [ref=e17]: wrapper.module.css
+          - generic [ref=e18]: ×
+        - generic "Example CSS with PxPeek end-of-line pixel hints" [ref=e86]:
+          - generic [ref=e21]: ".page {"
+          - generic [ref=e22]:
+            - text: "width: min(42rem, 42em, 85ch);"
+            - generic [ref=e87]:
+              - text: /*
+              - generic [ref=e88]: 672px
+              - text: ","
+              - generic [ref=e89]: 672px
+              - text: ","
+              - generic [ref=e90]: 680px
+              - text: "*/"
+          - generic [ref=e26]:
+            - text: "padding: 0 1.25rem 1.5rem 2rem;"
+            - generic [ref=e91]:
+              - text: /*
+              - generic [ref=e92]: 20px
+              - text: ","
+              - generic [ref=e93]: 24px
+              - text: ","
+              - generic [ref=e94]: 32px
+              - text: "*/"
+          - generic [ref=e30]:
+            - text: "height: 50rem;"
+            - generic [ref=e95]:
+              - text: /*
+              - generic [ref=e96]: 800px
+              - text: "*/"
+          - generic [ref=e32]:
+            - text: "gap: 0.75rem;"
+            - generic [ref=e97]:
+              - text: /*
+              - generic [ref=e98]: 12px
+              - text: "*/"
+          - generic [ref=e34]:
+            - text: "max-width: max(42rem, 50%);"
+            - generic [ref=e99]:
+              - text: /*
+              - generic [ref=e100]: 672px
+              - text: "*/"
+          - generic [ref=e36]: "}"
+      - generic [ref=e37]: Pixel hints now aggregated at end of line.
+    - paragraph [ref=e38]: Pixel equivalents for rem, em, vh, vw, and more — shown inline or aggregated at end of line. Choose your style in settings. Works in every JetBrains IDE with CSS support.
+    - generic [ref=e39]:
+      - iframe [ref=e40]:
+        - main [ref=f7e3]:
+          - button "Get from Marketplace" [ref=f7e5] [cursor=pointer]:
+            - link "Get from Marketplace" [ref=f7e6]:
+              - /url: https://plugins.jetbrains.com/plugin/31286-pxpeek--css-pixel-hints
+      - link "View on GitHub ↗" [ref=e41] [cursor=pointer]:
+        - /url: https://github.com/Stianlars1/pxpeek
+        - img [ref=e42]
+        - text: View on GitHub
+        - generic [ref=e44]: ↗
+    - generic [ref=e45]:
+      - text: Made by
+      - link "Stian Larsen" [ref=e46] [cursor=pointer]:
+        - /url: https://github.com/Stianlars1
+      - text: ·
+      - link "JetBrains Marketplace" [ref=e47] [cursor=pointer]:
+        - /url: https://plugins.jetbrains.com/plugin/31286
+  - button "Open Next.js Dev Tools" [ref=e53] [cursor=pointer]:
+    - img [ref=e54]
+  - alert [ref=e73]

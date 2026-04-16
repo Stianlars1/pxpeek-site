@@ -1,0 +1,69 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - img "PxPeek logo" [ref=e4]
+      - heading "PxPeek" [level=1] [ref=e5]
+    - paragraph [ref=e6]: See the pixels behind your units.
+    - generic [ref=e7]:
+      - radiogroup "Hint placement" [ref=e8]:
+        - radio "Inline" [checked] [active] [ref=e9]: Inline
+        - radio "End of line" [ref=e11]
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - img [ref=e14]
+          - generic [ref=e17]: wrapper.module.css
+          - generic [ref=e18]: ×
+        - generic "Example CSS with PxPeek inline pixel hints" [ref=e75]:
+          - generic [ref=e21]: ".page {"
+          - generic [ref=e22]:
+            - text: "width: min(42rem"
+            - generic [ref=e76]: 672px
+            - text: ", 42em"
+            - generic [ref=e77]: 672px
+            - text: ", 85ch"
+            - generic [ref=e78]: 680px
+            - text: );
+          - generic [ref=e26]:
+            - text: "padding: 0 1.25rem"
+            - generic [ref=e79]: 20px
+            - text: 1.5rem
+            - generic [ref=e80]: 24px
+            - text: 2rem
+            - generic [ref=e81]: 32px
+            - text: ;
+          - generic [ref=e30]:
+            - text: "height: 50rem"
+            - generic [ref=e82]: 800px
+            - text: ;
+          - generic [ref=e32]:
+            - text: "gap: 0.75rem"
+            - generic [ref=e83]: 12px
+            - text: ;
+          - generic [ref=e34]:
+            - text: "max-width: max(42rem"
+            - generic [ref=e84]: 672px
+            - text: ", 50%);"
+          - generic [ref=e36]: "}"
+      - generic [ref=e37]: Pixel hints now shown inline beside each value.
+    - paragraph [ref=e38]: Pixel equivalents for rem, em, vh, vw, and more — shown inline or aggregated at end of line. Choose your style in settings. Works in every JetBrains IDE with CSS support.
+    - generic [ref=e39]:
+      - iframe [ref=e40]:
+        - main [ref=f7e3]:
+          - button "Get from Marketplace" [ref=f7e5] [cursor=pointer]:
+            - link "Get from Marketplace" [ref=f7e6]:
+              - /url: https://plugins.jetbrains.com/plugin/31286-pxpeek--css-pixel-hints
+      - link "View on GitHub ↗" [ref=e41] [cursor=pointer]:
+        - /url: https://github.com/Stianlars1/pxpeek
+        - img [ref=e42]
+        - text: View on GitHub
+        - generic [ref=e44]: ↗
+    - generic [ref=e45]:
+      - text: Made by
+      - link "Stian Larsen" [ref=e46] [cursor=pointer]:
+        - /url: https://github.com/Stianlars1
+      - text: ·
+      - link "JetBrains Marketplace" [ref=e47] [cursor=pointer]:
+        - /url: https://plugins.jetbrains.com/plugin/31286
+  - button "Open Next.js Dev Tools" [ref=e53] [cursor=pointer]:
+    - img [ref=e54]
+  - alert [ref=e73]
