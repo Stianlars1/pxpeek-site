@@ -7,7 +7,7 @@ export default function Home() {
   return (
       <>
           <div className={styles.navbar}>
-            <Link                   href="https://github.com/Stianlars1/pxpeek"
+            <Link                   href="https://plugins.jetbrains.com/plugin/31286"
                                     target="_blank"
                                     rel="noreferrer noopener"
                                     className="group inline-flex items-center gap-2 text-sm font-medium text-paper/80 transition-colors hover:text-paper">
