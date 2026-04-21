@@ -41,20 +41,34 @@ export default function InlineHintsDemo() {
     doc.startViewTransition(commit);
   }
 
-  // One-shot auto demo on first scroll-in
+  const setModeAnimatedRef = useRef(setModeAnimated);
+  setModeAnimatedRef.current = setModeAnimated;
+
+  // Auto demo on first scroll-in, then keep alternating between modes forever
   useEffect(() => {
     const el = containerRef.current;
     if (!el || prefersReducedMotion()) return;
 
-    let timers: number[] = [];
+    const timers: number[] = [];
+    let started = false;
+    let next: Mode = "endOfLine";
+
+    const scheduleNext = (delay: number) => {
+      timers.push(
+        window.setTimeout(() => {
+          setModeAnimatedRef.current(next);
+          next = next === "inline" ? "endOfLine" : "inline";
+          scheduleNext(2100);
+        }, delay),
+      );
+    };
+
     const io = new IntersectionObserver(
       ([entry]) => {
-        if (!entry.isIntersecting) return;
+        if (!entry.isIntersecting || started) return;
+        started = true;
         io.disconnect();
-        timers.push(
-          window.setTimeout(() => setModeAnimated("endOfLine"), 1900),
-          window.setTimeout(() => setModeAnimated("inline"), 1900 + 2100),
-        );
+        scheduleNext(1900);
       },
       { threshold: 0.55 },
     );
