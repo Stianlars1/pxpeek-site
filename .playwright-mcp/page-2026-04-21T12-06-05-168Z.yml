@@ -1,0 +1,66 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Get from Marketplace ↗" [ref=e3] [cursor=pointer]:
+      - /url: https://github.com/Stianlars1/pxpeek
+      - img [ref=e4]
+      - text: Get from Marketplace
+      - generic [ref=e6]: ↗
+    - link "View on GitHub ↗" [ref=e7] [cursor=pointer]:
+      - /url: https://github.com/Stianlars1/pxpeek
+      - img [ref=e8]
+      - text: View on GitHub
+      - generic [ref=e10]: ↗
+  - main [ref=e11]:
+    - generic [ref=e12]:
+      - img "PxPeek logo" [ref=e13]
+      - heading "PxPeek" [level=1] [ref=e14]
+    - paragraph [ref=e15]: See the pixels behind your units.
+    - generic [ref=e16]:
+      - radiogroup "Hint placement" [ref=e17]:
+        - radio "Inline" [checked] [ref=e18]: Inline
+        - radio "End of line" [ref=e20]
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - img [ref=e23]
+          - generic [ref=e26]: wrapper.module.css
+          - generic [ref=e27]: ×
+        - generic "Example CSS with PxPeek inline pixel hints" [ref=e29]:
+          - generic [ref=e30]: ".page {"
+          - generic [ref=e31]:
+            - text: "width: min(42rem"
+            - generic [ref=e32]: 672px
+            - text: ", 42em"
+            - generic [ref=e33]: 672px
+            - text: ", 85ch"
+            - generic [ref=e34]: 680px
+            - text: );
+          - generic [ref=e35]:
+            - text: "padding: 0 1.25rem"
+            - generic [ref=e36]: 20px
+            - text: 1.5rem
+            - generic [ref=e37]: 24px
+            - text: 2rem
+            - generic [ref=e38]: 32px
+            - text: ;
+          - generic [ref=e39]:
+            - text: "height: 50rem"
+            - generic [ref=e40]: 800px
+            - text: ;
+          - generic [ref=e41]:
+            - text: "gap: 0.75rem"
+            - generic [ref=e42]: 12px
+            - text: ;
+          - generic [ref=e43]:
+            - text: "max-width: max(42rem"
+            - generic [ref=e44]: 672px
+            - text: ", 50%);"
+          - generic [ref=e45]: "}"
+      - generic [ref=e46]: Pixel hints now shown inline beside each value.
+    - paragraph [ref=e47]: Pixel equivalents for rem, em, vh, vw, and more — shown inline or aggregated at end of line. Choose your style in settings. Works in every JetBrains IDE with CSS support.
+    - generic [ref=e48]:
+      - text: Made by
+      - link "Stian Larsen" [ref=e49] [cursor=pointer]:
+        - /url: https://github.com/Stianlars1
+      - text: ·
+      - link "JetBrains Marketplace" [ref=e50] [cursor=pointer]:
+        - /url: https://plugins.jetbrains.com/plugin/31286
